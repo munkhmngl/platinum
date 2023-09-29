@@ -1,5 +1,5 @@
 const path = require('path');
-const postCSSPlugins = [require('postcss-simple-vars'), require('postcss-nested'), require('autoprefixer'), require('postcss-import')];
+const postCSSPlugins = [require('postcss-simple-vars'), require('postcss-nested'), require('autoprefixer'), require('postcss-import'), require('postcss-mixins')];
 module.exports = {
     mode: 'development',
     entry: './app/scripts/app.js',
