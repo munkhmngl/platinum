@@ -1,13 +1,13 @@
 const path = require('path');
 const postCSSPlugins = [require('postcss-simple-vars'), require('postcss-nested'), require('autoprefixer'), require('postcss-import')];
 module.exports = {
+    mode: 'development',
+    watch: true,
     entry: './app/scripts/app.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'app')
     },
-    mode: 'development',
-    watch: true,
     module: {
         rules: [
             {
