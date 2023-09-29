@@ -1,1 +1,1 @@
-alert('Тест хийж');
+import '../styles/style.css';

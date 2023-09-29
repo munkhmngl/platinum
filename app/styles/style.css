@@ -1,0 +1,15 @@
+@import './modules/_large_hero.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4em;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
