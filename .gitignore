@@ -1,0 +1,4 @@
+node_modules/
+Thumds.db
+*.log
+*.cache
