@@ -39,5 +39,8 @@
         @mixin atMedium {
             display: block;
         }
+        &--is-visible {
+            display: block;
+        }
     }
 }
