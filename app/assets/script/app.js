@@ -1,5 +1,5 @@
 import '../styles/style.css';
 
 if(module.hot){
-    module.hot.accert();
+    module.hot.accept();
 }
