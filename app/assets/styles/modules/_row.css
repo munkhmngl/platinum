@@ -47,8 +47,40 @@
             }
         }
     }
+    @mixin atLarge {
+        &__b-margin-until-large {
+            margin-bottom: 0;
+        }
+        &__large-four {
+            float: left;
+            width: 33%;
+            &--larger {
+                width: 37%;
+            }
+        }
+        &__large-six {
+            float: left;
+            width: 50%;
+        }
+        &__large-eight {
+            float: left;
+            width: 66%;
+            &--smaller {
+                width: 63%;
+            }
+        }
+    }
     &--equal-height-at-medium {
-        @mixin atSmall {
+        @mixin atMedium {
+            display: flex;
+        }
+        & > div {
+            float: none;
+            display: flex;
+        }
+    }
+    &--equal-height-at-large {
+        @mixin atLarge {
             display: flex;
         }
         & > div {
