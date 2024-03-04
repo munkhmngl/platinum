@@ -4,6 +4,16 @@
         background-color: $mainBlue;
         color: white;
     }
+    &--testimonials {
+        background-color: #e0e6ef;
+        @mixin atMedium {
+            background-image: url("/app/assets/images/testimonials-bg.jpg");
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: top;
+            background-size: cover;
+        }
+    }
     @mixin atSmall {
         padding: 2.1rem 0;
     }
