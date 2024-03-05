@@ -94,6 +94,7 @@
         text-align: center;
         @mixin atMedium {
             display: block;
+            opacity: 1;
             padding-top: 0;
             z-index: 1;
             transform: scale(1);
