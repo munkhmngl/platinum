@@ -7,4 +7,5 @@ if(module.hot){
 };
 
 let mobi = new Menu();
-let content = new Scroll();
+new Scroll(document.querySelectorAll('.feature-item'), 75);
+new Scroll(document.querySelectorAll('.testimonial'), 50);
