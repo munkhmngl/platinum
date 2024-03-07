@@ -1,4 +1,5 @@
 import '../styles/style.css';
+import 'lazysizes';
 import Menu from './modules/mobileMenu';
 import Scroll from './modules/RevealOnScroll';
 import Sticky from './modules/stickyHeader';
