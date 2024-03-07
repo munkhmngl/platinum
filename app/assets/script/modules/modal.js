@@ -2,14 +2,11 @@ class Modal {
     constructor(){
         this.injectHTML();
         this.modal = document.querySelector('.modal');
-        this.openModalButtons = document.querySelectorAll('.open-modal');
         this.closeIcon = document.querySelector('.modal__close');
         this.events();
     };
 
     events(){
-        // Нээх товчлуур дарагдсан эсэхийг ажиглах
-        this.openModalButtons.forEach(el => el.addEventListener('click', e => this.openModal(e)));
         // Хаах товчлуур дарагдсан эсэхийг ажиглах
         this.closeIcon.addEventListener('click', () => this.closeModal());
         // Keyboard дээрээс ямар нэг товчлуур дарагдсан эсэхийг ажиглах
@@ -22,8 +19,7 @@ class Modal {
         }
     };
 
-    openModal(e){
-        e.preventDefault();
+    openModal(){
         this.modal.classList.add('modal--is-visible');
     };
 
